@@ -8,12 +8,7 @@ the servo stand, and the gear sets that turn the steering servo into usable
 torque. Control runs on an Arduino Nano alongside an ESP32, with an ESP32-CAM for
 vision and an ultrasonic sensor for obstacle detection.
 
-The repository documents the full parts list, the steering mechanism, and each
-prototype with photos and video.
-
----
-
-## Hardware
+---## Hardware
 
 ### Electronics
 
@@ -50,8 +45,7 @@ A plain servo does not have enough torque to turn a wheel on the ground, so
 gears and a three-plank linkage. `Gears/` holds side-by-side video of the real
 gears and a simulation of the ratio, which is how the tooth count was chosen.
 
-This was the part that needed the most iteration — the first attempt is kept
-under `3 planks linkage (first try)` for comparison.
+The first attempt is kept under `3 planks linkage (first try)` for comparison.
 
 ## Repository layout
 
@@ -76,8 +70,7 @@ The full assembly is modelled in OnShape and is publicly viewable:
 
 ## Resources
 
-Both of these were genuinely useful while learning the tools, and are worth
-recommending to anyone starting out:
+Tutorials I worked through while learning the tools:
 
 - [OnShape beginner tutorial](https://www.youtube.com/watch?v=pMWnsHpDlQE&list=PLxmrkna-ixrIQmsPR3MITi4Ru1bnMH4-l)
 - [Arduino beginner tutorial](https://www.youtube.com/watch?v=JnJIKX5J0Cc&list=PLwWF-ICTWmB7-b9bsE3UcQzz-7ipI5tbR)
